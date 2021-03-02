@@ -20,25 +20,25 @@
                         </ul>
                     @endif
                     <div class="form-group row">
-                        <label class="col-md-2">氏名</label>
+                        <label class="col-md-2">氏名(name)</label>
                         <div class="col-md-8">
                             <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2">性別</label>
+                        <label class="col-md-2">性別(gender)</label>
                         <div class="col-md-8">
                             <input type="text" class="form-control" name="gender" value="{{ old('gender') }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2">趣味</label>
+                        <label class="col-md-2">趣味(hobby)</label>
                         <div class="col-md-8">
-                            <input type="text" class="form-control" name="hobby" value="{{ old('hobby') }}">
+                            <textarea class="form-control" name="hobby" rows="3">{{ old('hobby') }}</textarea>
                         </div>
                     </div>
 					<div class="form-group row">
-                        <label class="col-md-2">自己紹介欄</label>
+                        <label class="col-md-2">自己紹介欄欄(introduction)</label>
                         <div class="col-md-8">
                             <textarea class="form-control" name="introduction" rows="20">{{ old('introduction') }}</textarea>
                         </div>
